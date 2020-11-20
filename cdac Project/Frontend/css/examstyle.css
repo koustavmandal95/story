@@ -1,0 +1,66 @@
+header{
+    height: 200px;
+    background-color:#bbbfca;
+    text-align: center;
+    text-orientation: upright;
+}
+.Timer{
+    font-weight: bold;
+    font-size:20px;
+    font-family:"sans-serif";
+    position: absolute;
+    text-align: center;
+    margin-top:50px;
+    margin-left: 10px;
+}
+#curDate{
+    float:left;
+    margin-left:10px;
+}
+#curTime{
+    margin-right: 10px;
+    margin-bottom: 5px;
+    float:right;
+}
+marquee{
+    color:#f05454;
+    font-weight: 900;
+    font-size:larger;
+}
+header > p {
+    color:#52057b;
+    text-decoration-style: bold;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Lucida Sans';
+    padding-top:20px;
+}
+#qmap{
+    background-color:#706897;
+    margin-top:50px;
+   text-align: center;
+}
+a{
+    text-decoration-line: none ;
+}
+a:link{
+    color:black;
+}
+#qmap > button{
+    padding:15px;
+    text-align:center;
+    border-radius:50%;
+}
+#content{
+    margin:50px;
+    background-color: khaki;
+}
+#content > label{
+    font-weight: bold;
+    font-size:20px;
+
+}
+.option{
+    margin-left:10px;
+    font-size:20px;
+}
